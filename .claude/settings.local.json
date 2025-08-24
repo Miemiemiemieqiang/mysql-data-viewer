@@ -19,8 +19,11 @@
       "Bash(SQL_LOG_FORMAT=pretty bun run index.js)",
       "Bash(SQL_LOG_FORMAT=compact bun run index.js)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh repo create:*)",
+      "Bash(gh repo view:*)"
     ]
   },
-  "outputStyle": "Explanatory"
+  "outputStyle": "default"
 }
