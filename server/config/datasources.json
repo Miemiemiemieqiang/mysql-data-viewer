@@ -1,0 +1,35 @@
+[
+  {
+    "name": "production",
+    "host": "localhost",
+    "user": "root",
+    "password": "",
+    "database": "production_db",
+    "port": 3306,
+    "waitForConnections": true,
+    "connectionLimit": 10,
+    "queueLimit": 0
+  },
+  {
+    "name": "staging",
+    "host": "localhost",
+    "user": "root",
+    "password": "",
+    "database": "staging_db",
+    "port": 3306,
+    "waitForConnections": true,
+    "connectionLimit": 10,
+    "queueLimit": 0
+  },
+  {
+    "name": "A",
+    "host": "localhost",
+    "user": "root",
+    "password": "rootpassword",
+    "database": "test_db",
+    "port": "3306",
+    "waitForConnections": true,
+    "connectionLimit": 10,
+    "queueLimit": 0
+  }
+]

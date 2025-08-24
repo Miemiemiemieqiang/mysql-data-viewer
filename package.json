@@ -1,0 +1,21 @@
+{
+  "name": "mysql-data-viewer",
+  "version": "1.0.0",
+  "description": "A web-based MySQL data viewer with cascading display capabilities",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"bun run server\" \"bun run client\"",
+    "server": "cd server && bun run dev",
+    "client": "cd client && bun run dev",
+    "build": "cd client && bun run build",
+    "install:all": "bun install && cd server && bun install && cd ../client && bun install",
+    "start": "cd server && bun start"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  },
+  "keywords": ["mysql", "data-viewer", "cascading", "web"],
+  "author": "",
+  "license": "MIT"
+}

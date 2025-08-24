@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "foreignTable": "orders",
+      "foreignKey": "user_id",
+      "localKey": "id",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "orders": [
+    {
+      "foreignTable": "users",
+      "foreignKey": "id",
+      "localKey": "user_id",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "foreignTable": "products",
+      "foreignKey": "id",
+      "localKey": "product_id",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "products": [
+    {
+      "foreignTable": "orders",
+      "foreignKey": "product_id",
+      "localKey": "id",
+      "relationshipType": "one-to-many"
+    }
+  ]
+}
